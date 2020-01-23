@@ -4,7 +4,7 @@ function setup() {
   createCanvas(800, 600); // make an HTML canvas element width x height pixels
   angleMode(DEGREES);
   curTime = minute();
-  ellipseMode(RADIUS);
+  ellipseMode(RADIUS)
 
 
 
@@ -48,7 +48,6 @@ function draw() {
   fill(c);
   push();
   noStroke();
-  ellipseMode(CENTER);
   circle(move, 400, 200);
   noStroke();
   pop();
