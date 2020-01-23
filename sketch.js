@@ -39,7 +39,7 @@ function draw() {
 
 
   // from 200 to 600
-  amorpm = second()
+  amorpm = second();
   let move = map(amorpm, 0, 60, 202, 598);
   let ind = map(amorpm, 0,60,0,1);
   c1 = color(83, 255, 20);
