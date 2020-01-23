@@ -49,7 +49,7 @@ function draw() {
   push();
   noStroke();
   ellipseMode(CENTER);
-  circle(move, 400, 400);
+  circle(move, 400, 200);
   noStroke();
   pop();
 
@@ -75,7 +75,7 @@ function draw() {
   noStroke();
   blendMode(OVERLAY);
   fill(255, 255, 255);
-  circle(move + x, 400 + y, 100);
+  circle(move + x, 400 + y, 50);
   pop();
   let newangle = map(second(), 0, 60, 0, 360) - 90;
   var xx = 50 * cos(newangle);
