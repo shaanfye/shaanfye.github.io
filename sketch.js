@@ -48,6 +48,7 @@ function draw() {
   fill(c);
   push();
   noStroke();
+  ellipseMode(CENTER);
   circle(move, 400, 400);
   noStroke();
   pop();
