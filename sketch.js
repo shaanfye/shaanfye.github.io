@@ -4,6 +4,7 @@ function setup() {
   createCanvas(800, 600); // make an HTML canvas element width x height pixels
   angleMode(DEGREES);
   curTime = minute();
+  ellipseMode(CENTER)
 
 
 
