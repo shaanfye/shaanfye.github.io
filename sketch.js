@@ -74,7 +74,7 @@ function draw() {
   noStroke();
   blendMode(OVERLAY);
   fill(255, 255, 255);
-  circle(move + x, 400 + y, 25);
+  circle(move + x, 400 + y, 50);
   pop();
   let newangle = map(second(), 0, 60, 0, 360) - 90;
   var xx = 50 * cos(newangle);
