@@ -1,7 +1,7 @@
 var curTime;
 var newTime;
 function setup() {
-  createCanvas(2000, 1000); // make an HTML canvas element width x height pixels
+  createCanvas(800, 600); // make an HTML canvas element width x height pixels
   angleMode(DEGREES);
   curTime = minute();
   ellipseMode(RADIUS);
